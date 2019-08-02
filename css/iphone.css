@@ -1,0 +1,8 @@
+.wrapper .sub-nav ul a, .wrapper #nav ul ul a, .wrapper .sub-menu ul a{padding:18px 15px 10px;}
+.wrapper .posts ul time .num{margin-top:0;}
+.wrapper #nav > ul > li > a{padding:18px 0 10px;}
+.wrapper .bar .more a:after,
+.wrapper .tab-content .box .more:after,
+.wrapper a.more:after,
+.wrapper .article .heading .more:after,
+.wrapper .article .text-block .more:after{top:4px;}

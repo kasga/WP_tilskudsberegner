@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- DESKTOP -->
+  <meta charset="utf-8">
+  <title>Søg om tilskud til energiforbedringer – Ørsted</title>
+  <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Se her, hvad du kan søge om tilskud til, og hvor meget du kan få i tilskud, hvis du laver energiforbedringer i din bolig.">
+
+  <link media="all" rel="stylesheet" href="css/corev15.css">
+  <link media="all" rel="stylesheet" href="css/common.css?v=1.1">
+  <link media="all" rel="stylesheet" href="css/desktop.css">
+  <link media="all" rel="stylesheet" href="css/jquery.fileuploader.css">
+  <link media="all" rel="stylesheet" href="css/zupa.css?v=1.3">
+
+  <script src="//static.de-dynamisk.dk/netminers.js"></script>
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/plugins/jquery.fileuploader.js"></script>
+
+  <script type="text/javascript" src="js/zupa/uploader.js"></script>
+  <script type="text/javascript" src="js/zupa/zr_main.js?v=3.36"></script>
+
+  <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript" src="js/activeLabel.js"></script>
+  <script type="text/javascript" src="js/plugins/custom-inputs.js"></script>
+  <script type="text/javascript" src="js/plugins/jquery.customSelect.js"></script>
+  <script type="text/javascript" src="js/plugins/jquery.selectbox-0.2.min.js"></script>
+  <script type="text/javascript" src="js/plugins/jquery.tooltip.js"></script>
+  <script type="text/javascript" src="js/desktop.js"></script>
+  <script type="text/javascript" src="js/orsted.common.js"></script>
+  <script type="text/javascript" src="js/orsted.nintex.customizations.js"></script>
+  <script type="text/javascript" src="js/plugins/iframeResizer.contentWindow.min.js"></script>
+  <script type="text/javascript" src="js/plugins/jquery.xdomainrequest.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXZJ48"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KXZJ48');
+
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-63269475-1', 'auto');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <div class="wrapper">
+
+    <div id="main">
+
+      <div class="section-page">
+
+        <div class="main-container">
+
+
+          <!-- FORM -->
+          <form id="selectboxes" autocomplete="off">
+
+
+            <!-- Page 0 -->
+            <div class="grid-row page0 page">
+              <div class="col-sm-12">
+                <div class="input-wrap mandatory clearfix">
+                  <div class="label-wrap clearfix">
+                    <label for="sb-heating">Hvordan opvarmer du primært din bolig?</label>
+                  </div>
+                  <div class="input-inner-wrap zr-selectbox">
+                    <select id="sb-heating" name="residence_heating">
+                      <option value disabled selected>Vælg</option>
+                      <option value="fjernvarme" data-id="0">Fjernvarme</option>
+                      <option value="oliefyr" data-id="1">Oliefyr</option>
+                      <option value="naturgasfyr" data-id="2">Naturgasfyr</option>
+                      <option value="varmepumpe" data-id="3">Varmepumpe</option>
+                      <option value="pillefyr/biobrænsel" data-id="4">Pillefyr/biobrændsel</option>
+                      <option value="el" data-id="5">Elradiator</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-wrap mandatory clearfix zr-housing-select">
+                  <div class="label-wrap clearfix">
+                    <label for="sb-housing">Vælg boligform</label>
+                  </div>
+                  <div class="input-inner-wrap zr-selectbox">
+                    <select id="sb-housing" name="residence_type">
+                      <option value disabled selected>Vælg</option>
+                      <option value="Hus/villa" data-id="0">Hus/villa</option>
+                      <option value="Sommerhus/fritidhus m/u Brændovn og kolonihave" data-id="1">Sommerhus/fritidhus/kolonihave</option>
+                      <option value="Boligforening" data-id="2">Boligforening</option>
+                    </select>
+                    <small><strong>Bemærk!</strong> Vi giver ikke tilskud til nybyggeri.</small>
+                  </div>
+                </div>
+
+                <div class="zr-tooltip-cont">
+                  <div class="zr-tooltip">
+                    <div class="tip-close"></div>
+                    <p>Der er desværre ikke mulighed for at søge tilskud til energiforbed&shy;ringer i sommerhuse med denne opvarmningstype.</p>
+                    <div class="tip-arrow"></div>
+                  </div>
+                  <button type="submit" class="button zr-tooltip-btn pull-right">Fortsæt</button>
+                </div>
+
+              </div>
+
+              <div class="col-alt-2-4 hide-for-small"></div>
+
+            </div>
+            <!-- End of Page 0 -->
+
+          </form>
+          <!-- END selectboxes form -->
+
+          <!-- FORM -->
+          <form id="signupform" autocomplete="off">
+
+            <!-- Page 1 -->
+            <div class="grid-row page1 page">
+              <div class="col-sm-12">
+                <p>Her kan du se tilskudsmuligheder til dig med <span class="heating-type"></span>. Vælg de energiforbedringer, du overvejer, og se et skøn af, hvad du kan få i tilskud.</p>
+              </div>
+
+              <div class="col-sm-12 zr-mt30">
+                <div class="grid-row">
+                  <div id="improvements_list"></div>
+                  <input type="hidden" name="improvements_list" value="">
+                </div>
+
+                <p class="zr-responsibility">Det estimerede beløb er foreløbigt. Det endelige tilskudsbeløb bliver beregnet på baggrund af den dokumentation, du indsender, når energiforbedringen er udført. Bemærk, at vi trækker 120 kr. fra tilskudsbeløbet i administrationsgebyr.</p>
+
+                <div class="grid-row clearfix">
+                  <div id="your_choices" class="zr-hide">
+                    <div class="article-box clearfix">
+                      <h3 class="header">Dine valg</h3>
+                      <div class="user_choices"></div>
+                      <div class="user_result">
+                        Estimeret tilskud i alt:
+                        <span class="amount pull-right"></span>
+                      </div>
+
+                      <p>Det estimerede beløb er foreløbigt. Det endelige tilskudsbeløb bliver beregnet på baggrund af den dokumentation, du indsender, når energiforbedringen er udført. Bemærk, at vi trækker 120 kr. fra tilskudsbeløbet i administrationsgebyr.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="zr-tooltip-cont">
+                  <div class="zr-tooltip">
+                    <div class="tip-close"></div>
+                    <div class="zr-hide zr-tooltip-txt">
+                      <h3>Beløbet er <br>for lavt</h3>Bagatelgrænsen for udbetaling af tilskud er besparelser på 1000 kWh (cirka 310 kr.).</div>
+                    <div class="zr-tooltip-txt">
+                      <h3>Du skal foretage et valg</h3>For at søge om tilskud skal du vælge et eller flere af ovenstående.</div>
+                    <div class="tip-arrow"></div>
+                  </div>
+                  <button type="submit" class="btn-prevpage link-arrow-back pull-left zr_clearnothing">Tilbage</button>
+                  <button type="submit" class="button zr-tooltip-btn btn-nextpage pull-right zr_clearnothing">Fortsæt</button>
+                </div>
+              </div>
+
+            </div>
+            <!-- End of Page 1 -->
+
+
+
+            <!-- Page 2 -->
+            <div class="grid-row page2 page ">
+
+              <div class="col-sm-12">
+                <div class="col-sm-12 clearfix zr-mb10">
+                  <button type="submit" class="btn-prevpage link-arrow-back">Tilbage</button>
+                </div>
+              </div>
+              <div class="col-sm-12">
+
+                <div class="grid-row">
+                  <div class="col-sm-12">
+                    <div class="article-box clearfix">
+                      <h3 class="header">Dine valg</h3>
+                      <div class="user_choices"></div>
+                      <div class="user_result">
+                        Estimeret tilskud i alt:
+                        <span class="amount pull-right"></span>
+                      </div>
+                      <p><strong>Bemærk</strong>, at vi trækker 120 kr. i administrationsgebyr.</p>
+                      <p>Vær opmærksom på, at beregningen af tilskud er lavet på basis af de oplysninger, du selv har givet. Der tages derfor forbehold for, at den dokumentation, du indsender, er i overensstemmelse med de oplysninger du har givet her. Hvis
+                        ikke oplysninger og dokumentation stemmer overens, vil tilskuddet blive korrigeret, og i nogle tilfælde kan det helt bortfalde.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 clearfix zr-mt30">
+                <div class="uploader zr-mt20">
+                  <h4>Upload billede</h4>
+
+                  <div class="grid-row">
+                    <div class="col-sm-12">
+                      <p>
+                        Inden du kan fuldføre din ansøgning, skal du uploade mindst ét billede af din nuværende installation. Billedet skal vise, hvad du ønsker at energioptimere - f.eks. kedel (mærkepladen), vinduer, isolering (loft, væg etc.) eller varmerør.
+                      </p>
+                      </br>
+                      <p>
+                        <strong>Bemærk:</strong> Det er kun tilladt at uploade filer med endelsen jpg, jpeg, png, gif, docx, doc og pdf. Filerne må ikke være større end 25MB.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-row">
+                    <div class="col-sm-12 clearfix">
+                      <input type="file" name="files">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix zr-pb40 zr-borderbottom">
+                <div class="col-sm-12">
+                  <h4 class="zr-mb0">Kontaktoplysninger</h4>
+
+                  <div class="flex-row">
+                    <div class="flex-col">
+                      <div class="form-group input-wrap">
+                        <div class="form-group-content input-inner-wrap mandatory">
+                          <label>Fornavn</label>
+                          <input name="firstname" data-init="orsted.input" type="text" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex-col">
+                      <div class="form-group input-wrap">
+                        <div class="form-group-content input-inner-wrap mandatory">
+                          <label>Efternavn</label>
+                          <input name="lastname" data-init="orsted.input" type="text" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-row">
+                    <div class="flex-col">
+                      <div class="form-group input-wrap ui-widget">
+                        <div class="form-group-content input-inner-wrap mandatory">
+                          <label>Adresse<span class="form-help" data-help="Når vi kender din adresse, kan vi sende nyheder og tilbud, tilpasset dit nærområde, og som er relevant for dig."></span></label>
+                          <input id="address-input" name="street" data-init="orsted.input" type="text" spellcheck="false" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid-row">
+                    <!-- <input type="hidden" value="-" id="street-input" name="street"> -->
+                    <input type="hidden" value="-" id="zip-input" name="zip">
+                    <input type="hidden" id="city-input" value="-" name="city">
+                  </div>
+
+                  <div class="flex-row">
+                    <div class="flex-col">
+                      <div class="form-group input-wrap">
+                        <div class="form-group-content input-inner-wrap mandatory">
+                          <label>Telefon</label>
+                          <input name="phone" data-init="orsted.input" type="tel" data-type="numeric" maxlength="8" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-col">
+                      <div class="form-group input-wrap">
+                        <div class="form-group-content input-inner-wrap mandatory">
+                          <label>E-mail</label>
+                          <input id="email" name="email" data-init="orsted.input" type="email" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-row">
+                    <div class="flex-col col-lg-6">
+                      <div class="form-group input-wrap ui-widget">
+                        <div class="form-group-content input-inner-wrap">
+                          <label>Håndværker e-mail<span class="form-help" data-help="Dette felt benyttes, hvis du er håndværker og ansøger på vegne af andre. Indtast din <nobr>e-mailadresse</nobr> her."></span></label>
+                          <input name="craftsmanEmail" data-init="orsted.input" type="email" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-row">
+                    <div class="flex-col iscustomer zr-mt30">
+                      <div class="form-group input-wrap">
+                        <div class="form-group-content checkbox-radio-wrap mandatory">
+                          <legend>Er du kunde hos os?<span class="form-help" data-help="Du behøver ikke at være kunde hos os for at søge om tilskud."></span></legend>
+                          <label class="basic-radiobutton-inline">
+                            <input id="rb-customer0" type="radio" data-init="orsted.radiobutton" name="customer" value="ja">
+                            Ja
+                          </label>
+                          <label class="basic-radiobutton-inline">
+                            <input id="rb-customer1" type="radio" data-init="orsted.radiobutton" name="customer" value="nej">
+                            Nej
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex-col iscustomer">
+                      <div class="form-group input-wrap customer-input zr-mt50-visible-sm zr-hide">
+                        <div class="form-group-content input-inner-wrap">
+                          <label>Kundenummer</label>
+                          <input id="customer-key" name="customerKey" data-init="orsted.input" type="text" class="numeric">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix zr-mt30 zr-mb50 zr-borderbottom">
+                <div class="col-sm-12">
+
+                  <section class="tabs-box home-info zr-mt0 zr-mb20">
+                    <h4 class="zr-mb0">Boligoplysninger</h4>
+
+                    <div class="flex-row">
+                      <div class="flex-col">
+                        <div class="form-group input-wrap">
+                          <div class="form-group-content input-inner-wrap mandatory">
+                            <label>Hvornår er boligen fra?</label>
+                            <input id="housing-year" name="housingYear" data-init="orsted.input" type="text" class="numeric" maxlength="4">
+                          </div>
+                          <small><strong>Bemærk!</strong> Vi giver ikke tilskud til nybyggeri.</small>
+                        </div>
+                      </div>
+                      <div class="flex-col zr-mt30-visible-sm">
+                        <div class="input-wrap mandatory clearfix">
+                          <div class="label-wrap clearfix">
+                            <label for="createdby">Hvem udfører arbejdet?</label>
+                          </div>
+                          <div class="input-inner-wrap zr-selectbox">
+                            <select id="sb-createdby" name="createdby">
+                              <option value disabled selected>Vælg</option>
+                              <option value="Håndværker" data-id="0">Håndværkere</option>
+                              <option value="Jeg gør det selv" data-id="1">Jeg gør det selv</option>
+                              <option value="Både jeg og en håndværker" data-id="2">Både jeg og håndværkere</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-row extra-fields">
+                      <div class="flex-col">
+                        <div class="form-group input-wrap">
+                          <div class="form-group-content input-inner-wrap">
+                            <label>M<sup>2</sup> på huset</label>
+                            <input name="estateSize" data-init="orsted.input" type="text">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex-col">
+                        <div class="form-group input-wrap">
+                          <div class="form-group-content input-inner-wrap">
+                            <label>Seneste årsforbrug i liter/m<sup>3</sup>/tons</label>
+                            <input name="usage" data-init="orsted.input" type="text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-row extra-fields">
+                      <div class="flex-col col-lg-6">
+                        <div class="form-group input-wrap">
+                          <div class="form-group-content input-inner-wrap">
+                            <label>Alder på nuværende kedel</label>
+                            <input name="kettleAge" data-init="orsted.input" type="text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="input-wrap conditions clearfix zr-mt40 zr-mb0">
+                      <div class="checkbox-radio-wrap clearfix">
+                        <input type="checkbox" id="cb0" class="mandatory" name="condition_0" value="Jeg giver tilsagn til, at Ørsted må indberette energibesparelsen til Energistyrelsen.">
+                        <label for="cb0">
+                          <p>Jeg overdrager hermed indberetningsretten, for den konkrete energibesparelse der udføres, til et af Ørsted Sales and Distribution A/S udpeget netselskab, og kan således ikke overdrage denne  til anden side. De udpegede netselskaber kan ses på <a href="http://www.orsted.dk/esei" class="link-inline" target="_blank">www.orsted.dk/esei</a>. Jeg giver samtidig Energistyrelsen ret til, i forbindelse med en stikprøve eller lignende, at få adgang til at kontrollere, om energibesparelserne faktisk er gennemført, således som det fremgår af dokumentationen.
+                            <div class="popunder-trigger hover-in-out"></div>
+                            <div class="popunder">
+                              <div class="popunder-content">
+                                <p>Det er kun danske energi&shy;selskaber, der kan indberette energi&shy;besparelser til Energi&shy;styrelsen.</p>
+                              </div>
+                            </div>
+                          </p>
+                        </label>
+                        <small class="error"></small>
+                      </div>
+
+                      <div class="checkbox-radio-wrap clearfix">
+                        <input type="checkbox" id="cb4" class="mandatory" name="condition_4" value="Jeg giver tilsagn til, at Ørsted må bruge mine informationer for administrationen af Energispareordningen.">
+                        <label for="cb4">
+                          <p>
+                            Til brug for administrationen af Energispareordningen (herunder indberetning, dokumentation og kontrol af de realiserede energibesparelser) indsamler, behandler og opbevarer Ørsted samt det net- eller distributionsselskab, som energibesparelsen overdrages til, en række identifikationsoplysninger om Kunden, herunder navn, adresse, telefonnummer, e-mail, forbrugssted, slutanvendelse, størrelsen af den realiserede energibesparelse samt anvendt standardværdi (hvis relevant).<br><br>
+                            Oplysningerne videregives til brancheforeningen Dansk Energi og Energistyrelsen, der ligeledes behandler og opbevarer oplysningerne til ovennævnte formål. Derudover kan oplysningerne videregives til eventuelle øvrige aftaleparter, som net- eller distributionsselskabet samarbejder med vedrørende realiseringen af energibesparelserne hos Kunden.<br><br>
+                            Oplysninger om Kunden kan derudover inden for rammerne af lovgivningen videregives til offentlige myndigheder og til private til statistiske eller videnskabelige formål. Videregivelse til andre formål kan ske i det omfang, det følger af lovgivningen.<br><br>
+                            Kunden har ret til indsigt i de oplysninger, der behandles om Kunden, ret til indsigelse mod behandlingen af personoplysninger og ret til at kræve berigtigelse, sletning eller blokering af oplysninger, som viser sig at være urigtige, vildledende eller misvisende. Hvis Kunden ønsker at gøre brug af disse rettigheder, kan Kunden rette henvendelse til Ørsted, net- eller distributionsselskabet eller Energistyrelsen. Når Ørsted indberetter energibesparelsen, sender Ørsted meddelelse til Kunden, om til hvilket net- eller distributionsselskab energibesparelsen er overdraget. Der kan kræves betaling for skriftlige svar om indsigt, hvis Kunden har anmodet om et skriftligt svar.
+                          </p>
+                        </label>
+                        <small class="error"></small>
+                      </div>
+
+                      <div class="checkbox-radio-wrap clearfix">
+                        <input type="checkbox" id="cb1" class="mandatory" name="condition_1" value="Jeg bekræfter, at jeg ikke har ansøgt om tilskud eller overdraget energibesparelsen til andre energiselskaber.">
+                        <label for="cb1">
+                          <p>Jeg bekræfter, at jeg ikke har ansøgt om tilskud eller overdraget energibesparelsen til andre energiselskaber.
+                            <div class="popunder-trigger hover-in-out"></div>
+                            <div class="popunder">
+                              <div class="popunder-content">
+                                <p>Du kan kun ansøge om tilskud til en given energiforbedring ét sted.</p>
+                              </div>
+                            </div>
+                          </p>
+                        </label>
+                        <small class="error"></small>
+                      </div>
+
+                      <div class="checkbox-radio-wrap clearfix">
+                        <input type="checkbox" id="cb2" class="mandatory" name="condition_2" value="Jeg bekræfter, at arbejdet ikke allerede er i gang eller er udført.">
+                        <label for="cb2">
+                          <p>Jeg bekræfter, at jeg ikke allerede har indkøbt materialer eller på anden måde igangsat arbejdet.
+                            <div class="popunder-trigger hover-in-out"></div>
+                            <div class="popunder">
+                              <div class="popunder-content">
+                                <p>Vi kan ikke give tilskud til din energiforbedring, hvis du allerede har modtaget en ordrebekræftelse eller indkøbt materialer.</p>
+                              </div>
+                            </div>
+                          </p>
+                        </label>
+                        <small class="error"></small>
+                      </div>
+
+                      <div class="checkbox-radio-wrap clearfix">
+                        <input type="checkbox" id="cb3" name="condition_3" value="Ja tak, jeg vil gerne modtage sæsonens bedste tips fra Ørsted-koncernen.">
+                        <label for="cb3">
+                          <p>Ja tak, jeg vil gerne modtage nyheder, gode tilbud og konkurrencer fra Ørsted Salg &amp; Service A/S.
+                            <div class="link-inline popover-trigger">Læs betingelserne</div>
+                            <div class="popover full">
+                              <div class="popover-content">
+                                <p>Ørsted Salg &amp; Service A/S må fremover kontakte dig via brev, e-mail, telefon og sms med nyheder, relevant information, energisparetips, konkurrencer og gode tilbud om el, naturgas, varmeservice og intelligente boligprodukter.</p>
+                                <p>Vi håber, du vil give det en chance. Hvis det ikke er noget for dig, kan du nemt afmelde det igen. Vi sælger eller giver selvfølgelig ikke dine oplysninger til andre.</p>
+                              </div>
+                            </div>
+                          </p>
+                        </label>
+                        <small class="error"></small>
+                      </div>
+
+                    </div>
+
+                  </section>
+
+                </div>
+              </div>
+
+              <div class="grid-row">
+                <div class="col-sm-12">
+                  <button type="submit" class="btn-prevpage link-arrow-back pull-left zr_clearnothing">Tilbage</button>
+                  <button type="submit" class="button pull-right zr_clearnothing submit-application"></button>
+                </div>
+              </div>
+
+            </div>
+            <!-- End of Page 2 -->
+
+            <!-- Page 3 -->
+            <div class="grid-row page3 page">
+              <div class="col-sm-12">
+                <div class="grid-row">
+                  <div class="col-sm-12">
+                    <div class="article-box clearfix">
+                      <h3 class="header" class="zr-mb30">Vi har modtaget din ansøgning om tilskud til følgende energiforbedringer</h3>
+                      <div class="user_choices"></div>
+                      <div class="user_result">
+                        Estimeret tilskud i alt:
+                        <span class="amount pull-right"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix col-sm-12 zr-pb30">
+                <p>Vi har sendt en e-mail til dig med en bekræftelse og en vejledning til det videre forløb. Vær opmærksom på, at tilskudsberegningen er baseret på de oplysninger, du selv har oplyst. Det endelige beløb ligger først fast, når vi har modtaget
+                  dokumentation, og din ansøgning er færdigbehandlet. Vi trækker 120 kr. fra tilskudsbeløbet i administrationsgebyr. Husk at oplyse dit tilskudsnummer: <span class="orsted-number"></span></p>
+
+              </div>
+
+              <!-- <div class="breakout-container">
+                <div class="flex-row teaser circle-row">
+                  <div class="theme theme-image-circle" data-image="images/zupa/theme-image-1.jpg" data-pos="left center"></div>
+                  <div class="theme-content theme-white-dark-blue-red">
+                    <h4>Test dine energivaner</h4>
+                    <p>Find ud af, om du har nogle vaner i hjemmet, der koster dyrt på din elregning. Tag energitesten, få dit energital og få endnu flere gode råd om, hvor du kan finde besparelser.</p>
+                    <a href="https://orsted.dk/Privat/Kundeservice/Forbrug/Test-mit-forbrug/Test-dine-energivaner" target="_blank" class="btn btn-red">Tag energitesten</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+
+
+
+          </form>
+          <!-- END OF FORM -->
+
+          <!-- OVERLAY -->
+          <section id="zr-modal" class="hide">
+            <img src="images/loading.gif" alt="" class="zr-modal-img" />
+            <div class="close-btn"><img src="images/delete.svg" width="20" height="20" alt="" class="close-btn-icon"></div>
+            <div class="zr-modal-text">Tekst</div>
+          </section>
+
+        </div>
+        <!-- End main-container -->
+
+
+
+      </div>
+      <!-- End section-page -->
+
+    </div>
+    <!-- End main -->
+
+  </div>
+  <!-- End wrapper -->
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

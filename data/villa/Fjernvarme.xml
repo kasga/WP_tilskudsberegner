@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<improvements kr="0.28">
+
+	<improvement>
+	  <title><![CDATA[Isolering]]></title>
+
+	  <grant>
+	    <title><![CDATA[Ydervægge eller kælderydervægge]]></title>
+
+	    <option type="m2">
+	      <title prefix="YDERVÆG 001"><![CDATA[]]></title>
+	      <body><![CDATA[Uisoleret fuld mur eller bindingsværk, ydervæg efterisoleret indvendigt med mindst 45 mm.(λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>78</kwh>
+	      <multiply>1.5</multiply>
+				<help src=""><![CDATA[Oversigtsfoto: Facade og gavl. Detailfoto: Ydervæg set indefra ved vindue. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>	
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="YDERVÆG 002"><![CDATA[]]></title>
+	      <body><![CDATA[Uisoleret fuld mur eller bindingsværk eller let ydervæg isoleret med 0-20 mm.Ydervæg isoleret udvendigt med mindst 95 mm. (λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>89</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade og gavl. Detailfoto: Ydervæg set udefra ved vindue. Isoleringstykkelse for let konstruktion vist med tommstok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="YDERVÆG 003"><![CDATA[]]></title>
+	      <body><![CDATA[Isolerede ydervægge opført før 1972, efterisoleret udvendigt med mindst 95 mm. (λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>53</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade og gavl. Detailfoto: Ydervæg set udefra ved vindue. Isoleringstykkelse for let konstruktion vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="KÆLDER 001"><![CDATA[]]></title>
+	      <body><![CDATA[Betonkælderydervæg uden isolering, kælderen er opvarmet. Betonkælderydervæg indvendigt isoleret med mindst 45 mm eller betonkælderydervæg isoleret udvendigt (over og mod jord) med mindst 95 mm.(λ-værdien højest 0,044 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>86</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade med kældervinduer. Detailfoto: Betonydervæg set indefra ved kældervindue.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="KÆLDER 002"><![CDATA[]]></title>
+	      <body><![CDATA[Betonkælderydervæg uden isolering. Kælderen er opvarmet. Betonkælderydervæg isoleres udvendigt over jord med mindst 95 mm.(λ-værdien højest 0,044 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>215</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade med kældervinduer. Detailfoto: Betonydervæg set indefra ved kældervindue.]]></help>
+	    </option>
+	    </grant>
+
+
+
+
+
+
+	    <grant>
+	    <title><![CDATA[Tag og loft]]></title>
+
+	    <option type="m2">
+	      <title prefix="TAG 001"><![CDATA[]]></title>
+	      <body><![CDATA[Tag- eller loftkonstruktion herunder skråvægge,skunke og bjælkelag, isoleret med 0-45 mm, efterisoleres med mindst 95 mm eller med mindst 75 mm indblæst i konstruktionen.(λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>37</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Tagkonstruktion set udefra eller loftkonstruktion set indefra. Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="TAG 002"><![CDATA[]]></title>
+	      <body><![CDATA[Konstruktion mod uopvarmet loft isoleret med 50-95 mm. Konstruktion efterisoleres med mindst 195 mm.(λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>21</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Loftkonstruktion set indefra. Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="TAG 003"><![CDATA[]]></title>
+	      <body><![CDATA[Skrå tagflade eller fladt tag mod det fri isoleret 50-95 mm. Efterisoleres med mindst 145 mm.(λ-værdien højest 0,042 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>35</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Tagkonstruktion set udefra. Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="TAG 004"><![CDATA[]]></title>
+	      <body><![CDATA[Tagkonstruktion eller konstruktion mod uopvarmet loft isoleret med mindst 100 mm. Efterisoleres med mindst 145 mm.(λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>12</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Tagkonstruktion set udefra eller loftkonstruktion set indefra. Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+	    </grant>
+
+
+
+
+	    <grant>
+	    <title><![CDATA[Kælder/krybekælder (uopvarmet) eller mod jord]]></title>
+
+	    <option type="m2">
+	      <title prefix="Dæk 001"><![CDATA[]]></title>
+	      <body><![CDATA[Træbjælkelag over krybekælder isoleret med 0-20 mm. Eterisoleres med mindst 75 mm opsat på undersiden eller indblæst i konstruktionen.(λ-værdien  højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>74</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="Dæk 002"><![CDATA[]]></title>
+	      <body><![CDATA[Betondæk over krybekælder isoleret med 0-20 mm. Efterisoleres med mindst 75 mm på undersiden.(λ-værdien højest 0,039 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>42</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="DÆK 003"><![CDATA[]]></title>
+	      <body><![CDATA[Terrændæk isoleret med 0-20 mm. Nyt terrændæk med eller uden gulvvarme isoleres med mindst 300 mm i henhold til BR18´s krav. (λ-værdien højest 0,044 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>31</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    <option type="m2">
+	      <title prefix="DÆK 005"><![CDATA[]]></title>
+	      <body><![CDATA[Kældergulv i opvarmet kælder isoleret med 0-20 mm. Kældergulv er ombygget og isoleret med mindst 200 mm i henhold til BR18´s krav. (λ-værdien højest 0,044 W/mK)]]></body>
+	      <unit><![CDATA[m2]]></unit>
+	      <kwh>15</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Detailfoto: Konstruktion med isoleringstykkelse vist med tommestok. For lukkede konstruktioner skal der tages billeder i forbindelse med arbejdets udførelse.]]></help>
+	    </option>
+
+	    </grant>
+	  </improvement>
+
+
+
+
+
+
+	  <improvement>
+	  <title><![CDATA[Vinduer]]></title>
+	    <grant>
+	    <title><![CDATA[Vinduer,ovenlys og døre]]></title>
+
+	    <option type="m2 vinduer">
+	      <title prefix="VINDUE 003"><![CDATA[]]></title>
+	      <body><![CDATA[Vindue med 1, 2 eller 3-lag glas udskiftes til et nyt A-vindue. Skal opfylde Eref mindst 0 kWh. Dette skal fremgå af fakturaen.]]></body>
+	      <unit><![CDATA[m2 vinduer]]></unit>
+	      <kwh>185</kwh>
+	      <multiply>1.5</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade el. Gavl med vinduer. Detailfoto: Vindues- og rudekonstruktion.]]></help>
+	    </option>
+
+	    <option type="m2 vinduer">
+	      <title prefix="VINDUE 002"><![CDATA[]]></title>
+	      <body><![CDATA[Vindue med 1-,2-, eller 3 lags termoruder udskiftes med nyt B-vindue. Skal opfylde Eref mellem -17 og 0 kWh. Dette skal fremgå af fakturaen.]]></body>
+	      <unit><![CDATA[m2 vinduer]]></unit>
+	      <kwh>170</kwh>
+	      <multiply>1</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Facade el. Gavl med vinduer. Detailfoto: Vindues- og rudekonstruktion.]]></help>
+	    </option>
+
+	    <option type="m2 vinduer">
+	      <title prefix="DØR 003"><![CDATA[]]></title>
+	      <body><![CDATA[Massiv trædør eller trædør med 1- eller 2-lags rude udskiftes til ny pladedør med samme rudeareal og med 2-lags lavenergirude.]]></body>
+	      <unit><![CDATA[m2 vinduer]]></unit>
+	      <kwh>150</kwh>
+	      <multiply>1</multiply>
+	      <help src=""><![CDATA[Detailfoto: Døre og lag glas i ruder.]]></help>
+	    </option>
+
+	    <option type="m2 ruder">
+	      <title prefix="OVENLYS 001"><![CDATA[]]></title>
+	      <body><![CDATA[Ovenlysvinduer uden lavenergiglas udskiftes til ovenlysvinduer med 2- eller 3- lags lavenergiglas.]]></body>
+	      <unit><![CDATA[m2 ovenlysvindue]]></unit>
+	      <kwh>120</kwh>
+	      <multiply>1</multiply>
+	      <help src=""><![CDATA[Oversigtsfoto: Tagflader med ovenlysvinduer. Detailfoto: Vindues- og rudekonstruktion.]]></help>
+	    </option>
+
+	    <option type="m2 ruder">
+	      <title prefix="DØR 005"><![CDATA[]]></title>
+	      <body><![CDATA[Pladedør med 2-lags rude med et rudeareal på mere end 45 % af dørens areal udskiftes til ny pladedør med samme rudeareal og med 2-lags lavenergirude.]]></body>
+	      <unit><![CDATA[m2 dør]]></unit>
+	      <kwh>115</kwh>
+	      <multiply>1</multiply>
+	      <help src=""><![CDATA[Detailfoto: Døre og lag glas i ruder.]]></help>
+	    </option>
+
+	    </grant>
+	</improvement>
+
+	<improvement>
+		<title><![CDATA[Ventilation]]></title>
+			<grant>
+			<title><![CDATA[Skift fra naturlig til mekanisk ventilation med varmegenvinding]]></title>
+			<option type="stk">
+				<title prefix="VENT 001"><![CDATA[]]></title>
+				<body><![CDATA[Naturlig ventilation udskiftes til mekanisk ventilation med varmegenvinding. Anlægget skal opfylde kravene i ecodesign.]]></body>
+				<unit><![CDATA[stk]]></unit>
+				<kwh>3750</kwh>
+				<multiply>1.5</multiply>
+				<help src=""><![CDATA[Oversigtsfoto: Gennemføring af aftræk i tagflade. Detailfoto: Aftræk i køkken og bad.]]></help>
+			</option>
+			</grant>
+	</improvement>
+</improvements>

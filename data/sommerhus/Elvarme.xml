@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<improvements kr="0.28">
+	<improvement>
+		<title><![CDATA[Varmepumper]]></title>
+			<grant>
+			<title><![CDATA[Elvarme konverteres til varmepumpe]]></title>
+
+			<option type="stk">
+				<title prefix="VP 012"><![CDATA[]]></title>
+				<body><![CDATA[El-radiatorer evt. suppleret med brændovn i sommerhus på minimum 50 m2 erstattes med luft til luft varmepumpe, evt. suppleret med en brændovn. Luft til luft varmepumpen opfylder kravene i ecodesign.]]></body>
+				<unit><![CDATA[stk]]></unit>
+				<kwh>2200</kwh>
+				<multiply>1</multiply>
+				<help src=""><![CDATA[Oversigtsfoto: Typiske elraditator.]]></help>
+			</option>
+
+
+			</grant>
+	</improvement>
+</improvements>
