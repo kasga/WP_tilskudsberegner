@@ -547,7 +547,7 @@ input[type="tel"] {
   font-size: 12px;
   line-height: 18px;
   min-height: 16px;
-  font-weight: 400;
+  font-weight: 700;
   display: block;
   z-index: -1;
 }
