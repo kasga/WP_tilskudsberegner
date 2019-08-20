@@ -240,14 +240,22 @@
 			<grant>
 			<title><![CDATA[Supplerende luft/luft- varmepumpe]]></title>
 
-			<option type="stk">
-				<title prefix="VP 014"><![CDATA[]]></title>
-				<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med luft/luft-varmepumpe, der opfylder kravene i ecodesign.]]></body>
-				<unit><![CDATA[stk]]></unit>
-				<kwh>8550</kwh>
-				<multiply>1</multiply>
-				<help src=""><![CDATA[Oversigtsfoto: Kedel. Evt. unit med åben front. Detailfoto: Mærkeplade på kedel.]]></help>
-			</option>
+				<option type="stk">
+					<title prefix="VP 018"><![CDATA[]]></title>
+					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en lille luft/luft-varmepumpe, der opfylder kravene i ecodesign.]]></body>
+					<unit><![CDATA[stk]]></unit>
+					<kwh>4275</kwh>
+					<multiply>1.5</multiply>
+					<help src=""><![CDATA[Oversigtsfoto: Kedel. Evt. unit med åben front. Detailfoto: Mærkeplade på kedel.]]></help>
+				</option>
+				<option type="stk">
+					<title prefix="VP 014"><![CDATA[]]></title>
+					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en stor luft/luft-varmepumpe, der opfylder kravene i ecodesign.]]></body>
+					<unit><![CDATA[stk]]></unit>
+					<kwh>8550</kwh>
+					<multiply>1.5</multiply>
+					<help src=""><![CDATA[Oversigtsfoto: Kedel. Evt. unit med åben front. Detailfoto: Mærkeplade på kedel.]]></help>
+				</option>
 			</grant>
 
 	</improvement>
