@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <improvements kr="0.28">
-	<improvement>
+	<!-- <improvement>
 	  <title><![CDATA[Isolering]]></title>
 
 	  <grant>
@@ -141,13 +141,13 @@
 
 	    </grant>
 	  </improvement>
+ -->
 
 
 
 
 
-
-	  <improvement>
+	  <!-- <improvement>
 	  <title><![CDATA[Vinduer]]></title>
 	    <grant>
 	    <title><![CDATA[Vinduer,ovenlys og døre]]></title>
@@ -198,7 +198,7 @@
 	    </option>
 
 	    </grant>
-	</improvement>
+	</improvement> -->
 
 	<improvement>
 		<title><![CDATA[Gaskedler]]></title>
@@ -276,10 +276,9 @@
 
 		<grant>
 			<title><![CDATA[Supplerende luft/luft- varmepumpe]]></title>
-
 				<option type="stk">
 					<title prefix="VP 018"><![CDATA[]]></title>
-					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en lille luft/luft-varmepumpe, der opfylder kravene i ecodesign.]]></body>
+					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en luft/luft-varmepumpe som skal have den dimensionerede varmeydelse oplyst på varmepumpens energimærke, som skal være mindre end 4.0 kW. Varmepumpens energimærke skal dokumenteres, samt opfylde kravene i ecodesign.]]></body>
 					<unit><![CDATA[stk]]></unit>
 					<kwh>4275</kwh>
 					<multiply>1.5</multiply>
@@ -287,14 +286,13 @@
 				</option>
 				<option type="stk">
 					<title prefix="VP 014"><![CDATA[]]></title>
-					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en stor luft/luft-varmepumpe, der opfylder kravene i ecodesign.]]></body>
+					<body><![CDATA[Ikke kondenserende eller kondenserende kedel suppleres med en luft/luft-varmepumpe som skal have den dimensionerede varmeydelse oplyst på varmepumpens energimærke som skal være minimum 4.0 kW. Varmepumpens energimærke skal dokumenteres, samt opfylde kravene i ecodesign.]]></body>
 					<unit><![CDATA[stk]]></unit>
 					<kwh>8550</kwh>
 					<multiply>1.5</multiply>
 					<help src=""><![CDATA[Oversigtsfoto: Kedel. Evt. unit med åben front. Detailfoto: Mærkeplade på kedel.]]></help>
 				</option>
-
-		</grant>
+			</grant>
 
 
 
@@ -327,7 +325,7 @@
 
 
 
-	<improvement>
+	<!-- <improvement>
 		<title><![CDATA[Solvarme]]></title>
 			<grant>
 			<title><![CDATA[Montering af solvarmeanlæg]]></title>
@@ -352,13 +350,13 @@
 
 			</grant>
 
-	</improvement>
+	</improvement> -->
 
 
 
 
 
-	<improvement>
+	<!-- <improvement>
 		<title><![CDATA[Ventilation]]></title>
 			<grant>
 			<title><![CDATA[Skift fra naturlig til mekanisk ventilation med varmegenvinding]]></title>
@@ -371,5 +369,5 @@
 				<help src=""><![CDATA[Oversigtsfoto: Gennemføring af aftræk i tagflade. Detailfoto: Aftræk i køkken og bad.]]></help>
 			</option>
 			</grant>
-	</improvement>
+	</improvement> -->
 </improvements>

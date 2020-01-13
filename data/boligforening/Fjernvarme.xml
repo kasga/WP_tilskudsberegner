@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <improvements kr="0.28">
 
-	<improvement>
+	<!-- <improvement>
 	  <title><![CDATA[Isolering]]></title>
 
 	  <grant>
@@ -141,14 +141,14 @@
 	    </option>
 
 	    </grant>
-	  </improvement>
+	  </improvement> -->
 
 
 
 
 
 
-	  <improvement>
+	  <!-- <improvement>
 	  <title><![CDATA[Vinduer]]></title>
 	    <grant>
 	    <title><![CDATA[Vinduer,ovenlys og døre]]></title>
@@ -199,9 +199,9 @@
 	    </option>
 
 	    </grant>
-	</improvement>
+	</improvement> -->
 
-	<improvement>
+	<!-- <improvement>
 		<title><![CDATA[Ventilation]]></title>
 			<grant>
 			<title><![CDATA[Skift fra naturlig til mekanisk ventilation med varmegenvinding]]></title>
@@ -214,5 +214,5 @@
 				<help src=""><![CDATA[Oversigtsfoto: Gennemføring af aftræk i tagflade. Detailfoto: Aftræk i køkken og bad]]></help>
 			</option>
 			</grant>
-	</improvement>
+	</improvement> -->
 </improvements>
